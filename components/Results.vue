@@ -6,11 +6,10 @@
                 <p class="text-center">{{results.description}}</p>
             </div>
             <div class="row articles">
-                <div class="col-md-6 col-lg-4 item" v-for="(item,index) in results.items" v-bind:key=index>
-                    <a href="#"><img class="img-fluid" v-bind:src="item.image"></a>
-                    <h3 class="name">{{ item.name }}</h3>
-                    <p class="description">{{ item.description }}</p>
-                    <a href="#" class="action"></a>
+                <div class="item" v-bind:class="item.class" v-for="(item,index) in results.items" v-bind:key=index>
+                    <a href="#" v-if="item.image"><img class="img-fluid" v-bind:src="item.image"></a>
+                    <h3 class="name" v-if="item.name">{{ item.name }}</h3>
+                    <p class="description" v-if="item.description">{{ item.description }}</p>
                 </div>
             </div>
         </div>

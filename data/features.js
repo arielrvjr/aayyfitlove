@@ -5,27 +5,32 @@ export default {
     {
       icon: 'fa-map-marker',
       name: 'Lista de alimentos',
-      description: 'Lista de alimentos'
+      description: 'Lista de alimentos',
+        class: 'col-md-6 col-lg-4 '
     },
     {
       icon: 'fa-map-marker',
       name: 'Lista de alimentos',
-      description: 'Lista de alimentos'
+      description: 'Lista de alimentos',
+        class: 'col-md-6 col-lg-4 '
     },
     {
       icon: 'fa-map-marker',
       name: 'Lista de alimentos',
-      description: 'Lista de alimentos'
+      description: 'Lista de alimentos',
+        class: 'col-md-6 col-lg-4 '
     },
     {
       icon: 'fa-map-marker',
       name: 'Lista de alimentos',
-      description: 'Lista de alimentos'
+      description: 'Lista de alimentos',
+        class: 'col-md-6 col-lg-4 '
     },
     {
       icon: 'fa-map-marker',
       name: 'Lista de alimentos',
-      description: 'Lista de alimentos'
+      description: 'Lista de alimentos',
+        class: 'col-md-6 col-lg-4 '
     },
   ]
 }
