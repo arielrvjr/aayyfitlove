@@ -22,18 +22,6 @@ module.exports = {
     ]
   },
 modules: [
-  // ['nuxt-fontawesome', {
-  //   component: 'fa',
-  //   imports: [
-  //     {
-  //       set: '@fortawesome/free-solid-svg-icons',
-  //       icons: ['fas']
-  //     }, {
-  //       set: '@fortawesome/free-brands-svg-icons',
-  //       icons: ['fab']
-  //     }
-  //   ]
-  // }],
   ['bootstrap-vue/nuxt', { css: true  }],
 ],
   /*
@@ -53,7 +41,7 @@ modules: [
   /*
   ** Plugins to load before mounting the App
   */
-    plugins: ['~/plugins/vuefire','~/plugins/fontawesome']
+    plugins: []
 ,
 
   /*
@@ -61,7 +49,7 @@ modules: [
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios',
+    // '@nuxtjs/axios',
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt'
   ],

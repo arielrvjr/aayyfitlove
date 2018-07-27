@@ -12,3 +12,12 @@ dist
 
 # IDE
 .idea
+
+
+data/
+
+static/
+
+.firebaserc
+
+firebase.json
