@@ -14,32 +14,46 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css'
+      }
     ]
   },
 modules: [
-  'nuxt-fontawesome',
+  // ['nuxt-fontawesome', {
+  //   component: 'fa',
+  //   imports: [
+  //     {
+  //       set: '@fortawesome/free-solid-svg-icons',
+  //       icons: ['fas']
+  //     }, {
+  //       set: '@fortawesome/free-brands-svg-icons',
+  //       icons: ['fab']
+  //     }
+  //   ]
+  // }],
   ['bootstrap-vue/nuxt', { css: true  }],
 ],
   /*
   ** Customize the progress-bar color
   */
+
   loading: { color: '#FFFFFF' },
 
   /*
   ** Global CSS
   */
   css: [
-    {
-      src: 'font-awesome/scss/font-awesome.scss',
-      lang: 'scss'
-    }
+
   ],
+
 
   /*
   ** Plugins to load before mounting the App
   */
-    plugins: ['~/plugins/vuefire']
+    plugins: ['~/plugins/vuefire','~/plugins/fontawesome']
 ,
 
   /*

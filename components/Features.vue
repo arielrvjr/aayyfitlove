@@ -7,7 +7,7 @@
             </div>
             <div class="row features">
                 <div class="col-sm-6 col-lg-4 item" v-for="(item,index) in features.items" v-bind:key=index>
-                    <i class="fa icon" v-bind:class="item.icon"/>
+                    <i class="icon" v-bind:class="item.icon" />
                     <h3 class="name">{{ item.name }}</h3>
                     <p class="description">{{ item.description }}</p>
                 </div>
@@ -95,7 +95,7 @@
 </style>
 <script>
 import { mapState } from 'vuex'
-
+ 
 export default {
       computed: mapState([
     'features'
